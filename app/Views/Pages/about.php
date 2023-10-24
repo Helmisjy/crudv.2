@@ -173,17 +173,17 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-column justify-content-center wow fadeInUp text-center" data-wow-delay="0.3s">
-                        <img src="img/bapsmall.jpg" alt="" >
+                        <img src="img/BAP Logo Pendek.png" alt="" >
                     </div>
                 </div>
                 <div class="col-lg-6 align-middle wow slideInRight" data-wow-delay="0.6s">
-                    <div class="py-2 text-center">
-                        <h3 class="text-primary mb-3">Mission</h3>
+                    <div class="card shadow py-2 text-center mx-2 mb-4" style="border-radius: 15px;">
+                        <h3 class="text-primary mb-2">Mission</h3>
                         <h5 class="text-black mb-2">We provide the finest rental experience to those who know the value of safety and caring.</h5>
                     </div>
-                    <div class="py-2 text-center">
-                        <h3 class="text-primary mb-3">Vision</h3>
-                        <h5 class="text-black mb-0">We exist to prove that safety and caring make people smile and illuminate our future.</h5>
+                    <div class="card shadow py-2 mx-2 text-center" style="border-radius: 15px;">
+                        <h3 class="text-primary mb-2">Vision</h3>
+                        <h5 class="text-black mb-2">We exist to prove that safety and caring make people smile and illuminate our future.</h5>
                     </div>
                     <!-- <div class="col-lg-6 d-flex text-center">
                         </div>
@@ -191,16 +191,16 @@
                 </div> 
             </div>
         </div>
-        <div class="container">
+        <!-- <div class="container">
 
-            <div class="pt-3 text-center">
+        <div class="pt-3 text-center">
             <div class="py-2">
                 <p class="text-black mb-3">PT Berlian Amal Perkasa is established on May 2014 and has started its business in December 2014. We were born from the collaboration of three big companies that are our shareholders. Namely, Mitsubishi Corporation (Japan), Nikken Corporation (Japan), and PT Guna Teguh Sejati (Indonesia). 
                     Taking inspiration from three of our founders, our logo was decided to portrays each of their signatures. With the three red diamonds representing Mitsubishi Corporation, Blue Stripe representing PT Guna Teguh Sejati and Green Stripe representing Nikken Corporation. 
                     Starting with just a handful of employee in our first office in PT Guna Teguh Sejati’s Office at Cilegon, we are now proudly standing on our own Head Office located in Sovereign Plaza, Cilandak, South Jakarta with growing number of employees.                             
                 </p>
             </div>
-        </div>
+        </div> -->
         <div class="container justify-content-center">
             <div class="py-5 text-center">
                 <h1 class="text-primary mb-3">HSE Program</h1>
@@ -329,42 +329,62 @@ This program is a form of corporate responsibility to all social aspects and als
     <!-- Organization Chart End -->
 
 
-    <!-- Our Partner Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+     <!-- Our Partner Start -->
+     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center">
                 <!-- <h6 class="text-primary text-uppercase">// Shareholder //</h6> -->
-                <h1 class="mb-5">Our Shareholder</h1>
+                <h1 class="mb-5">Shareholder</h1>
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
                     <img class="bg p-2 mx-auto mb-3" src="img/mitsubishi.png" style="max-width: auto; height: 70px;">
-                    <h5 class="mb-0">PT.Mitsubishi Corporation</h5>
-                    <p>Construction</p>
+                    <h5 class="mb-1"> <a href="https://www.mitsubishicorp.com/jp/en/index.html" class="text-secondary" target="_blank">Mitsubishi Corporation</a></h5>
+                    <div class="mt-2">
+                        <a class="mt-2" href="https://www.mitsubishicorp.com/jp/en/index.html" target="__blank">Details</a>
+                    </div>
+                    <!-- <p>Multinational Company</p> -->
                     <!-- <div class="testimonial-text bg-light text-center p-4">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div> -->
                 </div>
+                <!-- <div class="testimonial-item text-center">
+                    <img class=" p-2 mx-auto mb-3" src="img/logo gta.png" style="width: auto; height: 70px;">
+                    <h5 class="mb-0">PT.Guna Teguh Abadi</h5>
+                    <p>Construction</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div> -->
                 <div class="testimonial-item text-center">
                     <img class=" p-2 mx-auto mb-3" src="img/Nikken.png" style="width: auto; height: 70px;">
-                    <h5 class="mb-0">PT.Nikken</h5>
-                    <p>Construction</p>
+                    <h5 class="mb-0"><a href="https://www.rental.co.jp/english/company/" class="text-secondary" target="_blank">Nikken Corporation</a></h5>
+                    <div class="mt-2">
+                        <a class="mt-2" href="https://www.rental.co.jp/english/company/" target="__black">Details</a>
+                    </div>
+                    <!-- <p>Contributing to a recycling-based society throught rental</p> -->
                     <!-- <div class="testimonial-text bg-light text-center p-4">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div> -->
                 </div>
                 <div class="testimonial-item text-center">
                     <img class=" p-2 mx-auto mb-3" src="img/kawan_lama.png" style="width: auto; height: 70px;">
-                    <h5 class="mb-0">PT.Kawan Lama</h5>
-                    <p>Construction</p>
+                    <h5 class="mb-1"><a href="https://www.kawanlama.com/" class="text-secondary" target="_blank">PT.Kawan Lama</a></h5>
+                    <div class="mt-2">
+                        <a class="mt-2" href="https://www.kawanlama.com/" target="blank">Details</a>
+                    </div>
+                    <!-- <p>Commercial & Industrial Suply</p> -->
                     <!-- <div class="testimonial-text bg-light text-center p-4">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div> -->
                 </div>
                 <div class="testimonial-item text-center">
                     <img class=" p-2 mx-auto mb-3" src="img/PT. Cakrawala Inti Nusantara.png" style="width: auto; height: 70px;">
-                    <h5 class="mb-0">PT.Cakrawala Inti Nusantara</h5>
-                    <p>Construction</p>
+                    <h5 class="mb-1"><a href="https://cakrawalaintinusantara.co.id/" class="text-secondary" target="_blank">PT.Cakrawala Inti Nusantara</a></h5>
+                    <div class="mt-2">
+                        <a class="mt-2" href="https://cakrawalaintinusantara.co.id/" target="__blank">Details</a>
+                    </div>
+                    <!-- <p>General Contractor,Enginering & Trading</p> -->
                     <!-- <div class="testimonial-text bg-light text-center p-4">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div> -->

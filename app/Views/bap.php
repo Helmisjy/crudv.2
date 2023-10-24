@@ -526,7 +526,7 @@ every part of industries, wherever clients need exist.</p>
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/_DSC5363.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mechanic.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -667,7 +667,7 @@ every part of industries, wherever clients need exist.</p>
                         </div>
                     </div>
                 <?php endforeach ?>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <!-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden" style="padding-bottom: 50px; padding-top: 57px;">
                             <img class="img-fluid" src="img/Complete Equipment/TELEHANDLER JCB 4T 7M 541-70.png" alt="">
@@ -816,7 +816,7 @@ every part of industries, wherever clients need exist.</p>
                             <h5 class="fw-bold mb-2">All Terrain Crane</h5>
                         </div>
                     </div>
-                </div> 
+                </div>  -->
             </div>
         </div>
     </div>
