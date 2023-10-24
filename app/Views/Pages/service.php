@@ -92,22 +92,48 @@
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-lg-4">
                     <div class="nav w-100 nav-pills me-4">
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                            <i class="fa fa-tractor fa-2x me-3"></i>
-                            <h4 class="m-0">Equipment Rent</h4>
+                    <!-- <div class="btn-group">
+                        <button class="btn btn-secondary btn-lg" type="button">
+                            Equipment Rental
                         </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
-                            <i class="fa fa-cog fa-2x me-3"></i>
-                            <h4 class="m-0">Regular Maintenance</h4>
+                        <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
                         </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                            <i class="fa fa-truck fa-2x me-3"></i>
-                            <h4 class="m-0">Mobilization</h4>
-                        </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
-                            <i class="fa fa-certificate fa-2x me-3"></i>
-                            <h4 class="m-0">Certified Operator</h4>
-                        </button>
+                        <div class="dropdown-menu">
+                            <button class="dropdown-items nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                                <i class="fa fa-cog fa-2x me-3"></i>
+                                <h4 class="m-0">Maintenance</h4>
+                            </button>
+                            <button class="dropdown-items nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                                <i class="fa fa-truck fa-2x me-3"></i>
+                                <h4 class="m-0">Mobilization</h4>
+                            </button>
+                            <button class="dropdown-items nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                                <i class="fa fa-certificate fa-2x me-3"></i>
+                                <h4 class="m-0">Certified Operator</h4>
+                            </button>
+                        </div>
+                    </div> -->
+                        <div class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <div class="d-flex fa fa-tractor fa-2x me-3 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                                <h4 class="m-0 me-3 px-3">Equipment Rental</h4>
+                            </div>
+                            <button type="button" class="bg-primary d-flex position-relative fa fa-chevron-down text-white" onclick="myFunction()"></button>
+                        </div>
+                        <div class="nav nav-pills x position-relative" id="Mydiv">
+                            <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                                <i class="fa fa-cog fa-2x me-3"></i>
+                                <h4 class="m-0">Maintenance</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                                <i class="fa fa-truck fa-2x me-3"></i>
+                                <h4 class="m-0">Mobilization</h4>
+                            </button>
+                            <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                                <i class="fa fa-certificate fa-2x me-3"></i>
+                                <h4 class="m-0">Certified Operator</h4>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -122,11 +148,10 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">Equipment Rental</h3>
-                                    <p class="mb-4">Equipment rental refers to the practice of temporarily leasing or lending out machinery, tools, vehicles, or other items to individuals or businesses. This allows renters to access specialized equipment for a specific period without the upfront costs of purchasing, maintenance, and storage.</p>
+                                    <p class="mb-4">Equipment rental refers to the practice of temporarily leasing or lending out machinery, vehicles, or other items to customer. This allows customer to access specialized equipment for a specific period without the initial expense of purchasing, maintenance and storage cost.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Good Equipment Condition</p>
                                     <p><i class="fa fa-check text-success me-3"></i>A Large Selection of Equipment Types Available</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Already Heavy Equipment</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3">Contact Us<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -134,18 +159,18 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/content-4.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mechanic.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">Regular Maintenance</h3>
-                                    <p class="mb-4">Elevate equipment engine's performance with our precision maintenance services.</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Expert Engineer</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Good Machine</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Efficiency Enhancement</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <h3 class="mb-3">Maintenance</h3>
+                                    <p class="mb-4">Maintain performance of our equipment with our precision maintenance service to minimize machine down time.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Preventive maintenance</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Qualified Mechanic</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quick response</p>
+                                    <!-- <p><i class="fa fa-check text-success me-3"></i>Efficiency Enhancement</p> -->
+                                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3">Contact Us<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -158,13 +183,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">Mobilization</h3>
+                                    <h3 class="mb-3">Equipment Delivery</h3>
                                     <p class="mb-4">Efficient Transport Solutions: Streamline your deliveries with our advanced delivery equipment, ensuring efficient and timely transportation of your goods.</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Seamless Distribution</p>
+                                    <!-- <p><i class="fa fa-check text-success me-3"></i>Seamless Distribution</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Precision Handling</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Enhanced Logistics</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Safety First</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quick and Safe Delivery</p> -->
+                                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3">Contact Us<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +207,7 @@
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Skill Certified</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3">Contact Us<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>

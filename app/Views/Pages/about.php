@@ -176,14 +176,14 @@
                         <img src="img/BAP Logo Pendek.png" alt="" >
                     </div>
                 </div>
-                <div class="col-lg-6 align-middle wow slideInRight" data-wow-delay="0.6s">
+                <div class="col-lg-6 align-middle wow slideInRight py-4" data-wow-delay="0.6s">
                     <div class="card shadow py-2 text-center mx-2 mb-4" style="border-radius: 15px;">
                         <h3 class="text-primary mb-2">Mission</h3>
-                        <h5 class="text-black mb-2">We provide the finest rental experience to those who know the value of safety and caring.</h5>
+                        <p class="text-black mb-2">We provide the finest rental experience to those who know the value of safety and caring.</p>
                     </div>
                     <div class="card shadow py-2 mx-2 text-center" style="border-radius: 15px;">
                         <h3 class="text-primary mb-2">Vision</h3>
-                        <h5 class="text-black mb-2">We exist to prove that safety and caring make people smile and illuminate our future.</h5>
+                        <p class="text-black mb-2">We exist to prove that safety and caring make people smile and illuminate our future.</p>
                     </div>
                     <!-- <div class="col-lg-6 d-flex text-center">
                         </div>

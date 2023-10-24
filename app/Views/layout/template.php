@@ -67,7 +67,7 @@
                         <a href="/about" class="dropdown-item">Company Overview</a>
                         <a href="/testimonial" class="dropdown-item">CEO Message</a>
                         <a href="/service" class="dropdown-item">Our Service</a>
-                        <a href="/career" class="dropdown-item">Career</a>
+                        <!-- <a href="/career" class="dropdown-item">Career</a> -->
                         <!-- <a href="/news" class="dropdown-item">News</a> -->
                         <!-- <a href="/404.html" class="dropdown-item">404 Page</a> -->
                     </div>
@@ -76,7 +76,7 @@
             </div>
             <nav class="py-0 navbar bg-body-tertiary">
                 <div class="container-fluid">
-                    <form class="d-flex" role="search">
+                    <form class="d-flex d-none d-lg-block mx-4" role="search">
                         <input class="form-control me-5 rounded-pill" type="search" placeholder="Search" aria-label="Search">
                         <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
                    </form>

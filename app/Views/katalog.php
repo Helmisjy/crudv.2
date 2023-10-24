@@ -62,7 +62,7 @@
                     <th scope="col">No</th>    
                     <th scope="col">Equipment</th>
                     <th scope="col">Type</th>
-                    <th scope="col">PDF</th>
+                    <th scope="col">Specification</th>
                 </tr>
             </thead>
             <tbody>
